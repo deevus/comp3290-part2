@@ -1,0 +1,10 @@
++/+
+  This program fails syntactically
++/+
+program syntax
+  arrays empty[0];
+  local x;
+
+  //syntax failure
+  x = * 2;
+end program syntax

@@ -1,0 +1,9 @@
++/+
+  This program fails semantically
++/+
+program semantic
+  arrays empty[0];
+
+  //semantic failure
+  x = y;
+end program semantic

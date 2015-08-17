@@ -1,0 +1,5 @@
++/+
+  This program fails lexically
++/+
+program #lexical
+end program lexical

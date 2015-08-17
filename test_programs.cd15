@@ -1,0 +1,30 @@
++/+
+  Hello world program
++/+
+program helloworld
+  local empty;
+
+  proc hello
+    printline "hello, world!";
+  end proc hello
+end program helloworld
+
+
++/+
+  Count to ten
++/+
+program count
+  local x;
+
+  proc main
+    x = 0;
+    loop printindex
+      exit printindex when x >= 10;
+
+      x = x + 1;
+      printline x;
+    end loop printindex
+  end proc main
+
+  call main;
+end program count
